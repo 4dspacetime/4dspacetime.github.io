@@ -37,7 +37,7 @@
     text-align: center;
     width: 20vw
 }
-.pre-code
+.pre-pre-code
 {
     background: blueviolet;
     border-radius: 10px 10px 0 0;
@@ -79,4 +79,5 @@ pre
 {
     margin: 0;
     padding: 0
+
 }
