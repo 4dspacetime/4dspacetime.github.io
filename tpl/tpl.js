@@ -17,5 +17,4 @@ onload = () =>
         owner: '4dspacetime',
         admin: ['4dspacetime']
     }).render('gitalk-container')
-
 }
