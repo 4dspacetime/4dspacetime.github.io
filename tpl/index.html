@@ -3,17 +3,16 @@
     <head>
         <meta charset=utf-8>
         <link href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/tomorrow-night-blue.min.css rel=stylesheet>
-        <link href=/tpl/tpl.css rel=stylesheet>
+        <link href=/tpl/index.css rel=stylesheet>
         <meta content=initial-scale=1,width=device-width name=viewport>
         <script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js></script>
         <script src=https://cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js></script>
         <script src=https://cdn.jsdelivr.net/npm/mathjax/tex-mml-chtml.min.js></script>
-        <script src=/tpl/tpl.js></script>
+        <script src=https://www.geogebra.org/apps/deployggb.js></script>
+        <script src=/tpl/index.js></script>
         <script type=module>
             import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/+esm'
-            mermaid.initialize({
-                theme: 'dark'
-            })
+            mermaid.initialize({ theme: 'dark' })
         </script>
         <title>
             tpl
@@ -21,7 +20,7 @@
     </head>
     <body>
         <nav class=left>
-            <img alt=avatar class=avatar loading=lazy src=/tpl/avatar.jpg>
+            <img alt=avatar class=avatar loading=lazy src=/tpl/avatar.png>
             <h1>
                 4dspacetime
             </h1>
@@ -49,6 +48,7 @@
                 <img alt=copy class=copy data-clipboard-target=#pre-code-1 loading=lazy onclick=copy(this) src=/tpl/copy.svg>
             </div>
             <pre><code class=language-js id=pre-code-1>console.log()</code></pre>
+            <div id=ggb-element></div>
             \(e^{i\pi}=-1\)
             \[
                 e^{i\theta}=\cos\theta+i\sin\theta\\

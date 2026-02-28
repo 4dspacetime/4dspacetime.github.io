@@ -10,4 +10,5 @@ onload = () =>
 {
     hljs.highlightAll()
     new ClipboardJS('.copy')
+    new GGBApplet({ 'appName': 'graphing', 'height': 600, 'showAlgebraInput': true, 'showMenuBar': true, 'showToolBar': true, 'width': 800 }, true).inject('ggb-element')
 }
